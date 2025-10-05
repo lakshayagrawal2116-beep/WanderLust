@@ -1,0 +1,9 @@
+<% if (error) { %>
+    <div class="alert alert-danger" style="color: red; border: 1px solid red; padding: 10px; margin: 10px 0;">
+        <%= error %>
+    </div>
+    <% } else if (success) { %>
+        <div class="alert alert-success" style="color: green; border: 1px solid green; padding: 10px; margin: 10px 0;">
+            <%= success %>
+        </div>
+        <% } %>
